@@ -16,7 +16,7 @@ resource "aws_instance""ec2_os"{
     }
 }
 
-output "Image_IP" {
+output "Instance_IP" {
     value = aws_instance.ec2_os.public_ip
  
 }
